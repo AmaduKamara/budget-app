@@ -7,6 +7,14 @@
 
 **App Screenshots**
 
+![image](https://user-images.githubusercontent.com/50941074/164752049-369ec365-a3b5-4bcc-9bc5-1b4e99177592.png)
+
+![image](https://user-images.githubusercontent.com/50941074/164752338-f5586a12-54b7-4ee8-a295-d4c893bd36f6.png)
+
+![image](https://user-images.githubusercontent.com/50941074/164752605-4c3eb1ef-0c55-4d2a-b106-7433c386c238.png)
+
+
+
 ## Built With
 
 - Ruby
