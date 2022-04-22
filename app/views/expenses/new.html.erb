@@ -1,17 +1,24 @@
+<header class="bg-sky-500 py-4 text-center w-96">
+  <h2 class="text-xl text-white uppercase">Add a new transaction</h2>
+</header>
+
+<div class="mt-5">
+  <%= render 'shared/notice' %>
+</div>
+
 <div class="flex flex-col items-center mb-20">
-  <h3 class="text-sky-400 text-xl font-bold mb-6 mt-4"> Add a new transaction</h3>
   <%= form_with url: category_expenses_path(params[:category_id]), scope: :expense do |form| %>
     <div>
     <%= form.label :Name %><br>
-    <%= form.text_field :name, class: 'mt-2 w-56 p-1 rounded', require: true %>
+    <%= form.text_field :name, class: 'mt-2 w-56 p-1 rounded', require: true,  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter first name' %>
     </div>
 
     <div class="mt-2">
     <%= form.label :amount %><br>
-    <%= form.number_field :amount, class: 'mt-2 w-56 p-1 rounded', require: true %>
+    <%= form.number_field :amount, class: 'mt-2 w-56 p-1 rounded', require: true,  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter first name' %>
     </div>
 
-    <%= form.submit "Submit", class: "bg-sky-400 p-2 rounded text-slate-50 mt-4" %>
-    <%= link_to 'Back', category_expenses_path(params[:category_id]), class: "bg-sky-400 rounded text-slate-50 mt-4 ml-20 px-4 py-3" %>
+    <%= link_to 'Back', category_expenses_path(params[:category_id]), class: "border border-sky-500 text-sky-500 rounded mt-4 mr-20 px-8 py-3" %>
+    <%= form.submit "Submit", class: "bg-sky-500 py-3 px-8 rounded text-slate-50 mt-4" %>
   <% end %>
 </div>

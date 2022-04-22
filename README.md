@@ -87,7 +87,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thanks to our morning session partners, coding partners and teammates.
+Original design: [Gregoire Vella](https://www.behance.net/gregoirevella) on [Behance](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+
+- Inspiration: Microverse
 
 ## 📝 License
 
