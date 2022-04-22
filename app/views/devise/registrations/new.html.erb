@@ -1,41 +1,43 @@
-<header class="bg-sky-500 py-4 text-center">
+<header class="bg-sky-500 py-4 text-center w-96">
   <h2 class="text-xl text-white uppercase">Sign up</h2>
 </header>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= render "devise/shared/error_messages", resource: resource %>
+<div class="px-8">
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field mt-10">
-    <%= f.label :name %><br />
-    <%= f.text_field :name, class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter first name' %>
-  </div>
+    <div class="field mt-10">
+      <%= f.label :name %><br />
+      <%= f.text_field :name, class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter first name' %>
+    </div>
 
-  <div class="field">
-    <%= f.label :surname %><br />
-    <%= f.text_field :surname, class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter surname' %>
-  </div>
+    <div class="field">
+      <%= f.label :surname %><br />
+      <%= f.text_field :surname, class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter surname' %>
+    </div>
 
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter email' %>
-  </div>
+    <div class="field">
+      <%= f.label :email %><br />
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter email' %>
+    </div>
 
-  <div class="field">
-    <%= f.label :password %>
-    <% if @minimum_password_length %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
-    <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password",  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter password'  %>
-  </div>
+    <div class="field">
+      <%= f.label :password %>
+      <% if @minimum_password_length %>
+      <em>(<%= @minimum_password_length %> characters minimum)</em>
+      <% end %><br />
+      <%= f.password_field :password, autocomplete: "new-password",  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter password'  %>
+    </div>
 
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password",  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Confirm password'  %>
-  </div>
+    <div class="field">
+      <%= f.label :password_confirmation %><br />
+      <%= f.password_field :password_confirmation, autocomplete: "new-password",  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Confirm password'  %>
+    </div>
 
-  <div class="actions">
-    <%= f.submit "Sign up", class: "bg-sky-500 py-3 w-full text-white rounded-md" %>
-  </div>
-<% end %>
+    <div class="actions">
+      <%= f.submit "Sign up", class: "bg-sky-500 py-3 w-full text-white rounded-md" %>
+    </div>
+  <% end %>
 
-<%= render "devise/shared/links" %>
+  <%= render "devise/shared/links" %>
+</div>
