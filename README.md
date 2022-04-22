@@ -14,6 +14,10 @@
 - PostgreSQL
 - TailwindCSS
 
+## Live version
+
+- Visit [Recipe App](https://agile-journey-02711.herokuapp.com/users/sign_up)
+
 ## Getting Started
 
 - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
