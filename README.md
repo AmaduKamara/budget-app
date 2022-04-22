@@ -16,7 +16,7 @@
 
 ## Live version
 
-- Visit [Recipe App](https://agile-journey-02711.herokuapp.com/users/sign_up)
+- Visit [Recipe App](https://agile-journey-02711.herokuapp.com/)
 
 ## Getting Started
 
