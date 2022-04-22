@@ -2,6 +2,10 @@
   <h2 class="text-xl text-white uppercase">Sign up</h2>
 </header>
 
+<div class="mt-5">
+  <%= render 'shared/notice' %>
+</div>
+
 <div class="px-8 pt-20">
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= render "devise/shared/error_messages", resource: resource %>

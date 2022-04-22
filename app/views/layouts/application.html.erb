@@ -12,12 +12,7 @@
 
   <body>
     <main class="splash flex justify-center items-center">
-      <div class="mb-16">
-        <% if notice %>
-          <p class="notice"><%= notice %></p>
-        <% elsif %>
-          <p class="alert"><%= alert %></p>
-        <% end %>
+      <div>
         <%= yield %>
       </div>
     </main>
