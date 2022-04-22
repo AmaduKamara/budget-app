@@ -11,17 +11,14 @@
   </head>
 
   <body>
-    <main class="h-screen splash flex justify-center items-center">
-      <div>
+    <main class="splash flex justify-center items-center">
+      <div class="mb-16">
         <% if notice %>
           <p class="notice"><%= notice %></p>
         <% elsif %>
           <p class="alert"><%= alert %></p>
         <% end %>
-        <div class="mb-16">
-          <%= yield %>
-        </div>
-
+        <%= yield %>
       </div>
     </main>
   </body>
