@@ -1,6 +1,6 @@
 # Budget App
 
-> App that keeps tracks of one's budget and expenditures
+> App that keeps tracks of one's budget and expenditures. The Budget tracker app is a full stack application. It's a functional website that shows the list of categories and transactions and enable readers to interact with them by adding new categories and transactions. Users can make use of the app by registering and have their account on which they can create categories and expenses on them.
 
 > The project is following data model below:
 > ![diagram](https://github.com/microverseinc/curriculum-rails/blob/main/capstone/images/erd_diagram.png)
