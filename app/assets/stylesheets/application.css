@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+.splash {
+  background-image: url("../images/splashscreen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
