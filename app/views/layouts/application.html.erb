@@ -25,7 +25,7 @@
         <div class="flex justify-center mb-6"> 
           <% if user_signed_in? %> 
             <div>
-              Signed in as <%= current_user.name %>. This cannot be cheese?&nbsp; <%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: "bg-sky-500 py-3 px-6 rounded-md text-lg text-slate-50" %> 
+              Signed in as <%= current_user.name %>. This cannot be cheese?&nbsp; <br> <br> <%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: "bg-sky-500 py-3 px-4 rounded-md text-lg text-slate-50" %> 
             </div>
           <% else %> 
             <div>
