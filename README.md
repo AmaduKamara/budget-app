@@ -28,7 +28,7 @@
 
 ## Demo Video
 
-- Visit [Recipe App](https://www.loom.com/share/ddb498571f3b4773939e1396db5a9be6)
+- Visit [Demo Video](https://www.loom.com/share/ddb498571f3b4773939e1396db5a9be6)
 
 ## Getting Started
 
