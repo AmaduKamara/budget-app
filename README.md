@@ -26,6 +26,10 @@
 
 - Visit [Recipe App](https://agile-journey-02711.herokuapp.com/)
 
+## Demo Video
+
+- Visit [Recipe App](https://www.loom.com/share/ddb498571f3b4773939e1396db5a9be6)
+
 ## Getting Started
 
 - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
