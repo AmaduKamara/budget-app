@@ -1,0 +1,24 @@
+example_id                                              | status | run_time        |
+------------------------------------------------------- | ------ | --------------- |
+./spec/models/category_spec.rb[1:1:1]                   | passed | 0.20304 seconds |
+./spec/models/category_spec.rb[1:1:2]                   | passed | 0.00204 seconds |
+./spec/models/category_spec.rb[1:1:3]                   | passed | 0.00152 seconds |
+./spec/models/category_spec.rb[1:1:4]                   | passed | 0.00184 seconds |
+./spec/models/expense_spec.rb[1:1:1]                    | passed | 0.00146 seconds |
+./spec/models/expense_spec.rb[1:1:2]                    | passed | 0.00199 seconds |
+./spec/models/expense_spec.rb[1:1:3]                    | passed | 0.00256 seconds |
+./spec/models/expense_spec.rb[1:1:4]                    | passed | 0.00203 seconds |
+./spec/models/expense_spec.rb[1:1:5]                    | passed | 0.00163 seconds |
+./spec/models/user_spec.rb[1:1:1]                       | passed | 0.00681 seconds |
+./spec/models/user_spec.rb[1:1:2]                       | passed | 0.00718 seconds |
+./spec/models/user_spec.rb[1:1:3]                       | passed | 0.00727 seconds |
+./spec/views/categories/categories_index_spec.rb[1:1:1] | passed | 0.051 seconds   |
+./spec/views/categories/categories_index_spec.rb[1:1:2] | passed | 0.75608 seconds |
+./spec/views/expenses/expenses_index_spec.rb[1:1:1]     | passed | 0.06521 seconds |
+./spec/views/expenses/expenses_index_spec.rb[1:1:2]     | passed | 0.1048 seconds  |
+./spec/views/login_spec.rb[1:1]                         | passed | 0.00949 seconds |
+./spec/views/login_spec.rb[1:2]                         | passed | 0.0116 seconds  |
+./spec/views/login_spec.rb[1:3]                         | passed | 0.0137 seconds  |
+./spec/views/login_spec.rb[1:4:1]                       | passed | 0.0265 seconds  |
+./spec/views/login_spec.rb[1:4:2]                       | passed | 0.04092 seconds |
+./spec/views/login_spec.rb[1:4:3]                       | passed | 0.03646 seconds |
