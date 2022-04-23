@@ -18,6 +18,11 @@
     <%= form.number_field :amount, class: 'mt-2 w-56 p-1 rounded', require: true,  class: 'border py-2 w-full mb-3 px-3', placeholder: 'Enter amount' %>
     </div>
 
+    <div class="mb-3">
+      <%= form.label :category, class:"form-label" %><br>
+      <%= form.select :categories_id, current_user.categories.collect {|category| [category.name, category.id]},{ include_blank: true} , class:"border py-2 w-full mb-3 px-3" %><br>
+    </div>
+
     <%= link_to 'Back', category_expenses_path(params[:category_id]), class: "border border-sky-500 text-sky-500 rounded mt-4 mr-20 px-8 py-3" %>
     <%= form.submit "Submit", class: "bg-sky-500 py-3 px-8 rounded text-slate-50 mt-4" %>
   <% end %>
